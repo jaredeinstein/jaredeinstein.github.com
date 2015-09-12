@@ -71,6 +71,11 @@ body{
 	color:#fff;
 	text-decoration:none;
 }
+
+#sLogo {
+	display: none;
+}
+
 #menu a:active {
 color:#1fcdff;
 }
@@ -136,6 +141,14 @@ border: none;
 #camera_wrap_1{
 	margin-bottom:0 !important;
 	margin-top: 10px;
+	height: 490px;
+	display: block;
+	position: relative;
+}
+.camera_caption{
+	margin-top: -250px;
+	padding: 10px 20px;
+	height: auto;
 }
 .camera_caption h2{
 	border-bottom:4px solid #1fcdff;
@@ -148,6 +161,17 @@ border: none;
 .slicknav_menu {
 	display:none;
 }
+.footer h3{
+	margin-top: 49px;
+	font-size: 19px;
+	font-family: 'Roboto', 'sans-serif';
+	font-weight: 400;
+	color: #fff;
+	text-align: left;
+	margin-bottom: 67px;
+}
+
+
 @media screen and (max-width: 991px) {
 	.news p{
 		text-align: center;
@@ -202,7 +226,7 @@ border: none;
 		margin-bottom:0;
 	}
 	.camera_caption h2{
-		font-size: 65px;
+		font-size: 45px;
 	}
 	.about h3{
 		text-align:center;
@@ -219,6 +243,10 @@ border: none;
 	.soc ul li{
 		margin-bottom: 20px;
 	}
+	.footer h3{
+		font-size: 16px;
+	}
+	
 }
 @media screen and (max-width: 323px){
 	.footer .fEmail{
@@ -1475,15 +1503,7 @@ textarea {
 	margin-top: 40px;
 	min-height:435px;
 }
-.footer h3{
-	margin-top: 49px;
-	font-size: 19px;
-	font-family: 'Roboto', 'sans-serif';
-	font-weight: 400;
-	color: #fff;
-	text-align: left;
-	margin-bottom: 67px;
-}
+
 .footer p{
 	font-size:16px;
 	font-family: 'Roboto', 'sans-serif';
