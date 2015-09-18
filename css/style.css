@@ -1856,6 +1856,10 @@ textarea {
 .dm{
 	margin-top: 29px;
 }
+
+.slicknav_menutxt i.fa {
+	margin-right: 10px;
+}
 /**/
 /*responsive*/
 @media screen and (max-width: 1190px){
